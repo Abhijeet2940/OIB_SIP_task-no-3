@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="em">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+<body>
+ 
+  
+  <div class="converter">
+     <h1 >Temperature Converter</h1>
+    <div class="input">
+      <label style="color:blanchedalmond">From</label>
+      <input type="number" id="input">
+      <select id="fromUnit">
+        <option value="celsius">Celsius</option>
+        <option value="fahrenheit">Fahrenheit</option>
+        <option value="kelvin">Kelvin</option>
+      </select>
+    </div>
+    <div class="input">
+      <label style="color:blanchedalmond">To</label>
+      <input type="number" id="output" disabled>
+      <select id="toUnit">
+        <option value="celsius">Celsius</option>
+        <option value="fahrenheit">Fahrenheit</option>
+        <option value="kelvin">Kelvin</option>
+      </select>
+    </div>
+    <div class="result">
+      <button onclick="convertTemperature()">Convert</button>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+<footer>
+    <p>@ abhijeetkumar</p>
+</footer>
+</html>
